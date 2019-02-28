@@ -11,3 +11,5 @@
 - `generated/prisma.graphql` contains the auto-generated Prisma database schema. The Prisma schema defines powerful CRUD operations for the types in your data model. Note that you should never edit this file manually since it gets automatically updated when the data model changes.
 - `resolvers` contains the resolver functions for the operations defined in the application schema.
 - `index.js` is the entry point for your GraphQL server.
+
+_From the mentioned files,_ only the application schema defined in server/src/schema.graphql is relevant for you as a frontend developer. This file contains the GraphQL schema which defines all the operations (queries, mutations and subscriptions) you can send from your frontend app.
